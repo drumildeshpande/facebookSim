@@ -1,0 +1,24 @@
+=================================Facebook Simulator====================================
+
+Team members:
+1) Drumil Deshpande - UFID: 83598265
+2) Sumeet Pande, UFID - 48909873
+
+This projects aims at creating a facebook simulator using scala , akka and spray-can.
+It contains implementation of REST APIs such as Friend List, Profile, Page, Photos, Albums.
+
+To run this project:
+
+Step1 - Go to Project-4-1 > Server
+
+Step2 - Type the following command to start the facebook server:
+	sbt run
+
+Step3 - Go to Project-4-1 > Client
+
+Step4 - Type the following command to initiate the clients which will create the facebook users:
+	sbt "run client <number of clients>"
+
+Here the <number of clients> parameter is an Interger.
+In order to terminate the program the client shuts down after some time.
+The output of every request can be seen on the server and client side.
